@@ -1,20 +1,19 @@
 import React from "react"
-import Avatar from "../images/avatar.jpeg"
+import Banner from "../images/banner1.jpeg"
+import Avatar from "../images/avatar6.png"
+
+
 
 const Header = () => {
     return ( 
-        <div className="wrapper">
-            <div>
-
-
-        </div>
-            <h1>Elsa Bynke</h1>
-
-            <div id="background-wrap">
- 
-                <div className="avatar"><img src={Avatar} alt="avatar"></img> </div>         
+        <div className="wrapper" zIndex={2}>
             
-            </div>
+<div className="avatar1"><img src={Avatar}></img></div>
+{        
+            <div className="textcontainer"><h1>
+              <span> Hey, </span>  <br/>
+I’m Elsa, a frontend student from Stockholm currently studying at Hyper Island </h1> </div>  }
+ 
 
         </div>
     )

@@ -1,8 +1,42 @@
 import React from "react"
+import Avatar from "../images/avatar.jpeg"
+
 
 const About = () => {
     return ( 
 <div>
+
+
+<div id="background-wrap">
+
+    <div className="about_left">
+    <h3>ABOUT</h3>
+    <p>I’m  a curious person who’s always eager to learn new things. 
+This curiousity has taken me on different journeys, traveling the world, studying media communications and political science and now, my latest obsession, exploring web development. <br/> <br/>
+ 
+I love visualizing ideas and making them come to life through tech, the sky is the limit. I’m an encouraging team player who always tries to take projects to the next level, there are no bad ideas and I think a good vibe and energy is A-O to make a team thrive. </p>    
+    </div>    
+    <div className="about_right">
+       <div className="avatar_animation">
+       <div className="avatar"><img src={Avatar} alt="avatar"></img> </div>     
+       <svg width="434" height="431" viewBox="0 0 434 431" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M215.61 430.896C334.688 430.896 431.219 334.443 431.219 215.462C431.219 96.482 334.688 0.0292969 215.61 0.0292969C96.5317 0.0292969 0 96.482 0 215.462C0 334.443 96.5317 430.896 215.61 430.896Z" fill="#DFA3E6"/>
+<path opacity="0.95" d="M215.61 0.0292969C215.58 0.118442 147.209 107.776 147.209 215.462C147.209 323.179 215.61 430.896 215.61 430.896C215.758 430.881 216.011 430.836 216.324 430.806C222.108 430.123 226.554 430.777 227.505 430.896C231.223 431.371 237.468 430.227 249.81 427.924C265.259 425.042 272.992 423.601 273.601 423.467C281.735 421.654 318.181 411.759 353.897 381.866C401.733 341.825 417.852 291.384 423.785 271.921C425.45 266.453 426.491 262.367 426.744 261.357C433.584 234.569 444.528 171.796 410.402 109.974C397.629 90.1101 365.005 45.4931 304.828 19.344C269.2 3.86252 236.799 0.445306 215.61 0.0292969Z" fill="#D986DF"/>
+<path d="M150.183 173.862C339.206 169.256 418.937 169.36 427.784 172.391C428.186 172.524 429.926 173.178 431.219 172.376C437.152 168.662 426.833 138.204 414.863 115.918C414.863 115.918 388.945 67.6605 333.778 34.2758C331.236 32.7455 328.619 31.2301 328.619 31.2301C308.009 19.4332 288.292 12.8514 276.575 8.94387C276.575 8.94387 261.869 4.04091 246.836 1.51515C242.642 0.816846 238.717 0.163118 233.453 0.0294004C231.609 -0.015172 230.494 0.0145429 223.044 0.0294004C219.922 0.0294004 217.349 0.0294004 215.609 0.0294004C211.981 5.58609 206.747 13.7428 200.74 23.8013C189.365 42.804 181.588 55.938 173.975 74.3167C168.904 86.5592 165.93 96.2611 163.566 104.032C158.406 120.999 155.209 135.767 153.157 147.118" fill="#EBA244"/>
+<path opacity="0.95" d="M215.61 0.0292969C199.313 24.975 187.878 47.6029 179.923 65.4021C176.681 72.6823 156.979 116.794 153.157 148.604C152.919 150.639 150.183 173.862 150.183 173.862C101.604 173.862 53.04 173.862 4.46094 173.862C6.18581 164.739 8.90696 153.566 13.3827 141.175C18.6614 126.541 24.3268 115.888 26.7654 111.46C28.8769 107.627 36.6834 93.7799 50.5568 77.2881C56.0586 70.7508 72.088 52.4018 93.6787 37.1729C133.842 8.83977 178.049 2.0202 199.253 0.0292969" fill="#EEBF88"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="434" height="431" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
+</div> 
+
+    </div>
+</div>
 
 </div>
     )

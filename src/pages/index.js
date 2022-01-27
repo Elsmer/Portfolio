@@ -14,11 +14,7 @@ export default function App() {
       <Header />
       <About />
       </Layout>
-      {/* <Router>
-       <Switch>
-		      <Route exact path="/nature.js" component={Nature}/>
-	    </Switch>
-    </Router>, */}
+      
     </div>
   )
 }
